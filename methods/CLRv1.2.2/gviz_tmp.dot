@@ -1,0 +1,30 @@
+digraph Network{
+rank=source; overlap=scale; splines=true; pack=true; dpi=600; label="LexA map";
+"sulA" [color=black,width=0.5]
+"dinF" [color=black,width=0.5]
+"lexA" [style=filled,width=0.5,fillcolor=grey90,color=black]
+"tisB" [color=black,width=0.5]
+"tisA" [color=black,width=0.5]
+"dinD" [color=black,width=0.5]
+"recA" [color=black,width=0.5]
+"recX" [color=black,width=0.5]
+"recN" [color=black,width=0.5]
+"yafN" [color=black,width=0.5]
+"yebG" [color=black,width=0.5]
+"umuD" [color=black,width=0.5]
+"dinI" [color=black,width=0.5]
+"bssS" [color=black,width=0.5]
+lexA->sulA [color=firebrick3];
+lexA->dinF [color=firebrick3];
+lexA->tisB [color=firebrick3];
+lexA->tisA [color=firebrick3];
+lexA->dinD [color=firebrick3];
+lexA->recA [color=firebrick3];
+lexA->recX [color=firebrick3];
+lexA->recN [color=firebrick3];
+lexA->yafN [color=firebrick3];
+lexA->yebG [color=firebrick3];
+lexA->umuD [color=firebrick3];
+lexA->dinI [color=firebrick3];
+lexA->bssS [color=firebrick3];
+}
