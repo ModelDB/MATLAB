@@ -8,7 +8,7 @@ classdef MDBBase
         DBConnection
     end
     
-    methods(Access = protected)
+    methods(Access = public)
         % Record retrieval. There are differences based upon connection
         % type
         function out = getRecordset(o, sSQL)
@@ -28,11 +28,11 @@ classdef MDBBase
         % Credentials to connect to the database
         function oConn = getDBConnection(o)
             javaaddpath('../SQL/jtds-1.3.1.jar');            
-            oConn = database('ModelDB2','login','password',...
+            oConn = database('ModelDB2','HAMMER','Athens2016THoR!',...
                 'net.sourceforge.jtds.jdbc.Driver',...
                 'jdbc:jtds:sqlserver://euler.math.uga.edu/ModelDB2'); 
             %javaaddpath('../SQLServer/sqljdbc4.jar');            
-            %oConn = database.ODBCConnection('ModelDB-Local','login','password'); % ,'portnumber',1433
+            %oConn = database.ODBCConnection('ModelDB-Local','sa','00#200'); % ,'portnumber',1433
         end
     end    
 end
