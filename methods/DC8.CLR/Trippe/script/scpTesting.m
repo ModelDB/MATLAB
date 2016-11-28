@@ -1,7 +1,7 @@
-addpath('..\..\..\..\..\class');
-addpath('..\data');
-addpath('..\figure');
-addpath('..\function');
+%addpath('..\..\..\..\..\class');
+%addpath('..\data');
+%addpath('..\figure');
+%addpath('..\function');
 
 tic
 sExpName = 'DREAM_8';

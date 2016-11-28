@@ -54,10 +54,10 @@ if Col1st
     data=cell2mat(C(2:end));
 else
     rowNames={};
-    colNames=tdfread('/home/brg/Documents/Elizabeth.Trippe/05_methodFor8970/experimental/CSV/colNames.csv',',');
-    colNames = colNames.Name
+    %colNames=tdfread('/home/brg/Documents/Elizabeth.Trippe/05_methodFor8970/experimental/CSV/colNames.csv',',');
+    %colNames = colNames.Name
     
-    %data=cell2mat(C);
-    data = csvread(InFile) ;
+    data=cell2mat(C);
+    %data = csvread(InFile) ;
 end
 

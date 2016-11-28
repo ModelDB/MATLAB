@@ -8,8 +8,8 @@ progArgs1={'-isExp',[],'-nodesExclude',{}};
 
 
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%[Data0,colNames]=fun1_read_delim(InFile,'-sep',',','-Row1st',true,'-Col1st',false);
-[Data0,colNames]=fun1_read_delim(InFile,'-sep',',','-Row1st',false,'-Col1st',true);
+[Data0,colNames]=fun1_read_delim(InFile,'-sep',',','-Row1st',true,'-Col1st',false);
+%[Data0,colNames]=fun1_read_delim(InFile,'-sep',',','-Row1st',false,'-Col1st',true);
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 [Data1,matrCond1,idxStimu,Times1,nodeNames,namesStimuli,namesInhibitor,...
     CellLine]=fun1HPN_preprocess_partition_data (Data0,colNames);

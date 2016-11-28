@@ -2,7 +2,7 @@ clear;
 
 %% %%%%%%%%%%%%%% files input %%%%%%%%%%%%%%%
 InFiles={
-    '/home/brg/Documents/Elizabeth.Trippe/05_methodFor8970/experimental/CSV/MCF7_main.csv'
+    '/home/brg/Documents/Elizabeth.Trippe/05_methodFor8970/experimental/CSV/MCF7_main_2.csv'
     %'/home/brg/Documents/Elizabeth.Trippe/05_methodFor8970/experimental/CSV/BT20_main.csv'
     %'/home/brg/Documents/Elizabeth.Trippe/05_methodFor8970/experimental/CSV/BT549_main.csv'
     %'/home/brg/Documents/Elizabeth.Trippe/05_methodFor8970/experimental/CSV/UACC812_main.csv'
