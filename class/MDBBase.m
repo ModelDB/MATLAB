@@ -32,7 +32,7 @@ classdef MDBBase
                 'net.sourceforge.jtds.jdbc.Driver',...
                 'jdbc:jtds:sqlserver://euler.math.uga.edu/ModelDB2'); 
             %javaaddpath('../SQLServer/sqljdbc4.jar');            
-            %oConn = database.ODBCConnection('ModelDB-Local','sa','00#200'); % ,'portnumber',1433
+            %oConn = database.ODBCConnection('ModelDB-Local', username, password); % ,'portnumber',1433
         end
     end    
 end
